@@ -30,5 +30,5 @@ stop:
 		docker stop digfutsys_web
 clear-data:
 		docker rm digfutsys_web digfutsys_db
-		docker rmi -f digfutsys_web
+		docker rmi -f digfutsystask_web
 		docker volume rm digfutsystask_postgres_data
